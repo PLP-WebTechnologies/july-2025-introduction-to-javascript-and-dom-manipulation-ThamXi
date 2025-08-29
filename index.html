@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Fundamentals Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🚀 JavaScript Fundamentals Demo</h1>
+    <p>Explore variables, functions, loops, and DOM in action!</p>
+  </header>
+
+  <main>
+    <!-- Part 1: Basic Input -->
+    <section>
+      <h2>Part 1: JavaScript Basics</h2>
+      <p>Enter a number to check if it’s even or odd:</p>
+      <input type="number" id="userNumber">
+      <button onclick="checkEvenOdd()">Check</button>
+      <p id="result"></p>
+    </section>
+
+    <!-- Part 2: Functions -->
+    <section>
+      <h2>Part 2: Functions</h2>
+      <button onclick="sayHello('Student')">Say Hello</button>
+      <button onclick="calculateTotal(5, 3)">Calculate Total</button>
+      <p id="functionOutput"></p>
+    </section>
+
+    <!-- Part 3: Loops -->
+    <section>
+      <h2>Part 3: Loops</h2>
+      <button onclick="showCountdown()">Start Countdown</button>
+      <button onclick="listFruits()">List Fruits</button>
+      <ul id="loopOutput"></ul>
+    </section>
+
+    <!-- Part 4: DOM -->
+    <section>
+      <h2>Part 4: DOM Manipulation</h2>
+      <button onclick="toggleTheme()">Toggle Dark Theme</button>
+      <button onclick="addNewItem()">Add New Item</button>
+      <button onclick="changeHeading()">Change Heading</button>
+      <div id="domDemo">
+        <h3 id="dynamicHeading">I am a heading</h3>
+        <ul id="dynamicList">
+          <li>Item A</li>
+          <li>Item B</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Thamaha JavaScript Fundamentals Assignment, thank you!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
