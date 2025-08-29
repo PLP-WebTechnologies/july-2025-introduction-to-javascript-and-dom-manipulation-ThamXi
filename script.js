@@ -78,5 +78,5 @@ function addNewItem() {
 // Example 3: Change heading text
 function changeHeading() {
   let heading = document.getElementById("dynamicHeading");
-  heading.textContent = "🔥 Heading Changed Dynamically!";
+  heading.textContent = "Heading Changed Dynamically!";
 }
